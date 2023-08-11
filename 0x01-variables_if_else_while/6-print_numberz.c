@@ -6,11 +6,13 @@
   */
 int main(void)
 {
-	int n;
+	int digit = 0;
 
-	for (n = 0; n <= 9; n++)
+	while (digit <= 9)
 	{
-		putchar(n + 48);
+		/*convert digit to ASCII resprestation*/
+		putchar(digit + '0');
+		digit++;
 	}
 	putchar("\n");
 	return (0);
