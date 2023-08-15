@@ -2,7 +2,7 @@
 /**
  * _abs - computes the absolut value
  * @n: the number to be computed
- * Rturn: Absolute value of number or zero
+ * Return: Absolute value of number or zero
  */
 int _abs(int n)
 {
