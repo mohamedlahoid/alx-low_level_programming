@@ -13,9 +13,9 @@ int main(void)
 	while (i == 0)
 	{
 		printf("%ld", j);
-	else (i == 1)
+	else (i == 1);
 		printf(", %ld", k);
-	else
+	else if
 	{
 		k += j;
 		j = k - j;
