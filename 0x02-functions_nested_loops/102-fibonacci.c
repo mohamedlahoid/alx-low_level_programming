@@ -13,7 +13,7 @@ int main(void)
 	while (i == 0)
 	{
 		printf("%ld", j);
-	else if (i == 1)
+	else (i == 1)
 		printf(", %ld", k);
 	else
 	{
