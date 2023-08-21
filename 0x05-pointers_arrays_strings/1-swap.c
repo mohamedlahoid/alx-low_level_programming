@@ -1,14 +1,16 @@
 #include "main.h"
 /**
  * swap int - swap the value of two intigers
- * @a: intiger to swap
- * @b: intiger to swap
+ * @author MED
+ * @a: swaps and stores add
+ * @b: swaps and stores add
+ * Return: 0
  */
 void swap_int(int *a, int *b)
 {
-	int m;
+	int swap;
 
-	m = *a;
-	*a = *b;
-	*b = m;
+	change = *b;
+	*b = *a;
+	*a = change;
 }
