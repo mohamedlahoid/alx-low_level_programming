@@ -4,4 +4,14 @@
  * @s: input paramter
  * Return: legnth of string
  */
-int _strlen(c
+int _strlen(char *s)
+{
+	int longi = 0;
+
+	while (*s != '\n')
+	{
+		longi++;
+		s++;
+	}
+	return (longi);
+}
