@@ -4,7 +4,7 @@
  * @a: intiger to swap
  * @b: intiger to swap
  */
-void swap_int(int *a, int *b)
+int main(void)
 {
 	int m;
 
