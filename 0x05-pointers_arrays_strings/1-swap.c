@@ -1,12 +1,10 @@
 #include "main.h"
 /**
- * main - Entry point
  * swap int - swap the value of two intigers
- * @a: input parameter
- * @b: input parameter
- * * Return: nothing
+ * @a: intiger to swap
+ * @b: intiger to swap
  */
-void swap_int(int *a, int *b) /* the function that swaps the value */
+void swap_int(int *a, int *b)
 {
 	int m;
 
