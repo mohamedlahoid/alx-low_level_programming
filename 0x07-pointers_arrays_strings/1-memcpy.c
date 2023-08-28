@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memcpy - copy memory erea
+ * *_memcpy - copy memory erea
  * @dest: memory area
  * @src: source
  * @n: lenght
